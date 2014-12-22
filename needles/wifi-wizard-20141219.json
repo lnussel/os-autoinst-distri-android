@@ -1,0 +1,17 @@
+{
+  "tags": [
+    "wifi-wizard",
+    "ENV-DISTRI-android",
+    "ENV-INSTLANG-en_US",
+    "ENV-FLAVOR-live"
+  ],
+  "area": [
+    {
+      "xpos": 89,
+      "ypos": 47,
+      "width": 291,
+      "height": 87,
+      "type": "match"
+    }
+  ]
+}

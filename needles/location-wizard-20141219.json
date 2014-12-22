@@ -1,0 +1,17 @@
+{
+  "tags": [
+    "ENV-DISTRI-android",
+    "ENV-FLAVOR-live",
+    "ENV-INSTLANG-en_US",
+    "location-wizard"
+  ],
+  "area": [
+    {
+      "xpos": 88,
+      "ypos": 56,
+      "width": 386,
+      "height": 62,
+      "type": "match"
+    }
+  ]
+}

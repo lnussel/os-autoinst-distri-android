@@ -1,0 +1,17 @@
+{
+  "tags": [
+    "ENV-DISTRI-android",
+    "ENV-FLAVOR-live",
+    "ENV-INSTLANG-en_US",
+    "google-account-wizard2"
+  ],
+  "area": [
+    {
+      "xpos": 83,
+      "ypos": 55,
+      "width": 351,
+      "height": 61,
+      "type": "match"
+    }
+  ]
+}

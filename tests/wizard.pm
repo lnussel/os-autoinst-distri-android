@@ -19,18 +19,46 @@ use strict;
 use testapi;
 
 sub run {
-    # wait for bootloader to appear
-    assert_screen "bootloader", 30;
+    assert_screen "welcome-wizard", 180;
 
-    # press enter to boot right away
+    assert_and_click "next-button-wizard";
+
+    assert_screen "wifi-wizard", 180;
+    send_key "down";
+    send_key "down";
+    send_key "ret";
+    assert_screen "wifi-wizard-warning-popup", 5;
+    send_key "ret";
+
+    assert_screen "google-account-wizard", 30;
+    send_key "down";
+    send_key "ret";
+
+    assert_screen "google-account-wizard2", 30;
+    send_key "down";
+    send_key "down";
+    send_key "ret";
+
+    assert_screen "location-wizard", 30;
+    send_key "right";
+    send_key "ret";
+
+    assert_screen "datetime-wizard", 30;
+    send_key "down";
+    send_key "right";
+    send_key "ret";
+
+    assert_screen "personalize-wizard", 30;
+    type_string "Joe\n";
+    type_string "Sixpack\n";
+
+    assert_screen "google-wizard", 30;
+    send_key "right";
+    send_key "right";
     send_key "ret";
 }
 
 sub test_flags {
-    # without anything - rollback to 'lastgood' snapshot if failed
-    # 'fatal' - whole test suite is in danger if this fails
-    # 'milestone' - after this test succeeds, update 'lastgood'
-    # 'important' - if this fails, set the overall state to 'fail'
     return { fatal => 1 };
 }
 

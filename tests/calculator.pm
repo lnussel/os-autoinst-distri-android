@@ -19,19 +19,12 @@ use strict;
 use testapi;
 
 sub run {
-    # wait for bootloader to appear
-    assert_screen "bootloader", 30;
 
-    # press enter to boot right away
-    send_key "ret";
-}
+    assert_and_click "menu-button";
 
-sub test_flags {
-    # without anything - rollback to 'lastgood' snapshot if failed
-    # 'fatal' - whole test suite is in danger if this fails
-    # 'milestone' - after this test succeeds, update 'lastgood'
-    # 'important' - if this fails, set the overall state to 'fail'
-    return { fatal => 1 };
+    assert_and_click "calculator-icon";
+
+    assert_screen "calculator", 20;
 }
 
 1;

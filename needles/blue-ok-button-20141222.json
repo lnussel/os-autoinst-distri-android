@@ -1,0 +1,17 @@
+{
+  "area": [
+    {
+      "xpos": 713,
+      "ypos": 511,
+      "width": 66,
+      "height": 33,
+      "type": "match"
+    }
+  ],
+  "tags": [
+    "blue-ok-button",
+    "ENV-DISTRI-android",
+    "ENV-INSTLANG-en_US",
+    "ENV-FLAVOR-live"
+  ]
+}

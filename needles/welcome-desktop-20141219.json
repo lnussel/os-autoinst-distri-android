@@ -1,0 +1,17 @@
+{
+  "tags": [
+    "ENV-DISTRI-android",
+    "ENV-FLAVOR-live",
+    "ENV-INSTLANG-en_US",
+    "welcome-desktop"
+  ],
+  "area": [
+    {
+      "xpos": 319,
+      "ypos": 257,
+      "width": 172,
+      "height": 81,
+      "type": "match"
+    }
+  ]
+}

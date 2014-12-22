@@ -19,6 +19,11 @@ use testapi;
 use autotest;
 
 autotest::loadtest get_var('CASEDIR')."/tests/boot.pm";
+autotest::loadtest get_var('CASEDIR')."/tests/wizard.pm";
+autotest::loadtest get_var('CASEDIR')."/tests/desktop_welcome.pm";
+autotest::loadtest get_var('CASEDIR')."/tests/desktop.pm";
+autotest::loadtest get_var('CASEDIR')."/tests/menu.pm";
+autotest::loadtest get_var('CASEDIR')."/tests/calculator.pm";
 
 1;
 

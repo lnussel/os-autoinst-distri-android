@@ -1,0 +1,17 @@
+{
+  "tags": [
+    "welcome-wizard",
+    "ENV-DISTRI-android",
+    "ENV-INSTLANG-en_US",
+    "ENV-FLAVOR-live"
+  ],
+  "area": [
+    {
+      "xpos": 71,
+      "ypos": 32,
+      "type": "match",
+      "width": 225,
+      "height": 74
+    }
+  ]
+}

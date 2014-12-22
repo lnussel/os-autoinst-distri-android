@@ -1,0 +1,17 @@
+{
+  "area": [
+    {
+      "xpos": 10,
+      "ypos": 33,
+      "width": 777,
+      "height": 521,
+      "type": "match"
+    }
+  ],
+  "tags": [
+    "calculator",
+    "ENV-DISTRI-android",
+    "ENV-INSTLANG-en_US",
+    "ENV-FLAVOR-live"
+  ]
+}

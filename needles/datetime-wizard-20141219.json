@@ -1,0 +1,17 @@
+{
+  "area": [
+    {
+      "xpos": 75,
+      "ypos": 54,
+      "width": 275,
+      "height": 59,
+      "type": "match"
+    }
+  ],
+  "tags": [
+    "datetime-wizard",
+    "ENV-DISTRI-android",
+    "ENV-INSTLANG-en_US",
+    "ENV-FLAVOR-live"
+  ]
+}

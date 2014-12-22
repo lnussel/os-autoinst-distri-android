@@ -1,0 +1,17 @@
+{
+  "area": [
+    {
+      "xpos": 32,
+      "ypos": 299,
+      "width": 567,
+      "height": 68,
+      "type": "match"
+    }
+  ],
+  "tags": [
+    "welcome2-desktop",
+    "ENV-DISTRI-android",
+    "ENV-INSTLANG-en_US",
+    "ENV-FLAVOR-live"
+  ]
+}

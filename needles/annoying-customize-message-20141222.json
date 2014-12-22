@@ -1,0 +1,17 @@
+{
+  "tags": [
+    "annoying-customize-message",
+    "ENV-DISTRI-android",
+    "ENV-INSTLANG-en_US",
+    "ENV-FLAVOR-live"
+  ],
+  "area": [
+    {
+      "xpos": 36,
+      "ypos": 296,
+      "width": 509,
+      "height": 64,
+      "type": "match"
+    }
+  ]
+}

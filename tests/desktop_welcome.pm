@@ -19,18 +19,14 @@ use strict;
 use testapi;
 
 sub run {
-    # wait for bootloader to appear
-    assert_screen "bootloader", 30;
+    assert_screen "welcome-desktop", 30;
+    assert_and_click "blue-ok-button";
 
-    # press enter to boot right away
-    send_key "ret";
+    assert_screen "welcome2-desktop", 30;
+    assert_and_click "blue-ok-button";
 }
 
 sub test_flags {
-    # without anything - rollback to 'lastgood' snapshot if failed
-    # 'fatal' - whole test suite is in danger if this fails
-    # 'milestone' - after this test succeeds, update 'lastgood'
-    # 'important' - if this fails, set the overall state to 'fail'
     return { fatal => 1 };
 }
 

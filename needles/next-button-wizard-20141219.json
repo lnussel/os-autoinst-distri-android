@@ -1,0 +1,17 @@
+{
+  "area": [
+    {
+      "xpos": 610,
+      "ypos": 154,
+      "width": 104,
+      "height": 101,
+      "type": "match"
+    }
+  ],
+  "tags": [
+    "ENV-DISTRI-android",
+    "ENV-FLAVOR-live",
+    "ENV-INSTLANG-en_US",
+    "next-button-wizard"
+  ]
+}

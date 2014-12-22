@@ -1,0 +1,17 @@
+{
+  "tags": [
+    "wifi-wizard-warning-popup",
+    "ENV-DISTRI-android",
+    "ENV-INSTLANG-en_US",
+    "ENV-FLAVOR-live"
+  ],
+  "area": [
+    {
+      "xpos": 153,
+      "ypos": 238,
+      "width": 496,
+      "height": 110,
+      "type": "match"
+    }
+  ]
+}

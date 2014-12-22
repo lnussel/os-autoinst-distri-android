@@ -1,0 +1,17 @@
+{
+  "tags": [
+    "menu-button",
+    "ENV-DISTRI-android",
+    "ENV-INSTLANG-en_US",
+    "ENV-FLAVOR-live"
+  ],
+  "area": [
+    {
+      "xpos": 374,
+      "ypos": 499,
+      "width": 53,
+      "height": 47,
+      "type": "match"
+    }
+  ]
+}
