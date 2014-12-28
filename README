@@ -1,4 +1,5 @@
-example distro for openQA. Just runs one simple test where you need
-to create the needles for.
+PoC Android tests for openQA
 
-To install clone this repo to /var/lib/openqa/tests/<yourdistro>
+To install clone this repo and branch to
+/var/lib/openqa/tests/android-4.4
+and import the templates
